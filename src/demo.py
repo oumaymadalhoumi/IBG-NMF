@@ -1,6 +1,9 @@
 import sys 
 sys.path.append("..\\")
 
+import warnings
+warnings.filterwarnings('ignore')
+
 import pandas as pd
 import numpy as np
 
@@ -23,7 +26,7 @@ mvlens =  CF(df_raw)
 #Prepare Hyperparameters   
 I = mvlens.count_users
 J = mvlens.count_movies
-
+print("It contains %s users and %s movies" % (I, J))
 #define model params
 list_k = [50,100,200,800]
 iterations = 100

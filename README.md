@@ -59,11 +59,9 @@ Download raw data from https://files.grouplens.org/datasets/movielens/ml-1m.zip 
 3. Results are stored under [./results/1M]
 
 ## Contact
-If you have any questions feel free to contact the authors on oumayma.dalhoumi@concordia.ca
+If you have any questions, please feel free to contact the authors on oumayma.dalhoumi@concordia.ca
 
 ## References
-If you have any questions you can contact the authors on oumayma.dalhoumi@concordia.ca
-
 [1] F. Maxwell Harper and Joseph A. Konstan. 2015. The MovieLens Datasets: History
 and Context. ACM Transactions on Interactive Intelligent Systems (TiiS) 5, 4,
 Article 19 (December 2015), 19 pages. DOI=http://dx.doi.org/10.1145/2827872
