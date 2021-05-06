@@ -12,7 +12,7 @@ from models.online_IBG_BNMF import ib_nmf_online
 from data.CF import CF
 
 # Read dataset 
-path = '../data/movielens-dataset/ratings.dat'
+path = '../data/ml-1m/ratings.dat'
 sep = "::"
 columns = ["user_id", "item_id",  "rating", "timestamp"] 	
 df_raw = pd.read_csv(path, sep , names = columns, dtype = {'rating':np.int} ,header=None , usecols=[0, 1, 2, 3])
