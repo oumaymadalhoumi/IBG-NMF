@@ -14,7 +14,7 @@ The purpose of this project is to develop a new Bayesian Nonnegative Matrix Fact
 * Data Visualization
 
 ### Technologies
-* R 
+* Python
 * Pandas, jupyter
 
 ## Folder Structure
